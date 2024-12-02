@@ -12,11 +12,11 @@ $sudo apt install bind9
 ---
 ## Configuración de la zona directa
 Aquí configuraremos el nombre de nuestra zona accediendo al siguiente fichero:
-```bash
+```ini
 $nano /etc/bind/named.conf.local
 ```
 Aqui dentro usaremos la siguiente estructura:
-```bash
+```ini
 zone "Skletin.org" {
     type master;
     file "db.Skletin";
